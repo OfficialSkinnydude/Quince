@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px){
+    .front_img{
+        background-image: url(/images/temp_front.jpg);
+    display: inline-block;
+    vertical-align: top;
+        
+    }
+}
