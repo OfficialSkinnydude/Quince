@@ -2,7 +2,7 @@ section{
     height: 100vh;
 }
 .front_img{
-    background-image: url(images/Finished\Product-087.jpg);
+    background-image: url(/images/Finished\Product-087.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width:66.7%;
@@ -64,7 +64,7 @@ section{
     color: #5e704a;
 }
 .rsvp_back{
-    background-image: url(/images/olive2.jpg);
+    background-image: url(images/olive2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 33.3%;
