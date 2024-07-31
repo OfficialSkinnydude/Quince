@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5e704a;
+    font-family: didot, serif;
+}
+
+.hotel_title{
+    color: #d8b786;
+    text-align: center;
+}
+
+.home{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #d8b786;
+    font-size: x-large;
+}
+.card_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card{
+    width: 325px;
+    margin: 20px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.images{
+    position: absolute;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    
+}
+.building{
+    text-align: center;
+}
+
+
+
+
+
+
+
