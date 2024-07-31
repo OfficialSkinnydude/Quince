@@ -1,0 +1,120 @@
+section{
+    height: 100vh;
+}
+.front_img{
+    background-image: url("images/fatima.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:66.7%;
+    height: 100%;
+    float: left; 
+}
+.title{
+    font-size: 50px;
+    margin: 50px;
+    color: #d8b786;
+    top: 70%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+.ubicacion {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d8b786;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 50%;
+}
+
+.time {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d8b786;
+    text-align: center;
+    margin-top: 1px; /* Adjust this value to control the spacing */
+}
+
+
+.rsvp_back{
+    background-image: url("olive_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 33.3%;
+    height: 100%;
+    float: right;
+}
+.rsvp_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers content */
+    align-items: center; /* Horizontally centers content */
+    height: 100%;
+    text-align: center;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: didot,serif;
+}
+
+
+
+.hyperlinks{
+    text-align: center;
+    padding: 10px;
+    font-family: didot,serif;
+}
+.hyperlinks a{
+    color: #d8b786;
+    padding: 10px;
+    font-size: x-large;
+}
+
+@media screen and (min-width: 300px) and (max-width:1023px) and (min-height:601px)/*portrait*/ {
+    .front_img{
+        background-image: url("images/fatima.png");
+        background-size: 100% 100%;
+        width: 100%;
+        height: 60%;
+    }
+    .title{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: absolute;
+        top:50%;
+    }
+
+    .rsvp_back{
+        width:100%;
+        height: 40%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+    .ubicacion{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: absolute;
+        top:70%;
+    }
+    .time{
+        margin: 20px;
+        padding: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 80%;
+    }
+}
