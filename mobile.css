@@ -12,7 +12,7 @@
      }
 
     .front_img{
-        background-image: url(/images/Finished\ Product-061.jpg);
+        background-image: url("images/Finished Product-061.jpg");
         background-size: 100% 100%;
         width: 100%;
         height: 60%;
@@ -89,7 +89,7 @@
         height: 100vh;
     }
     .front_img{
-        background-image: url(/images/FinishedProduct087.jpg);
+        background-image: url("images/Finished Product-061.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width:66.7%;
@@ -141,7 +141,7 @@
         color: #5e704a;
     }
     .rsvp_back{
-        background-image: url(/images/olive_2.jpg);
+        background-image: url("images/olive2.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 33.3%;
@@ -233,7 +233,7 @@
      }
 
     .front_img{
-        background-image: url(/images/Finished\ Product-064.jpg);
+        background-image: url("images/Finished Product-064.jpg");
         background-size: 100% 100%;
         width: 100%;
         height: 60%;
@@ -315,7 +315,7 @@
      }
 
     .front_img{
-        background-image: url(/images/Finished\ Product-064.jpg);
+        background-image: url("images/Finished Product-064.jpg");
         background-size: 100% 100%;
         width: 100%;
         height: 60%;
