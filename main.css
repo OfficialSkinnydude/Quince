@@ -1,0 +1,155 @@
+section{
+    height: 100vh;
+}
+.front_img{
+    background-image: url(/images/FinishedProduct087.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:66.7%;
+    height: 100%;
+    float: left; 
+}
+.title{
+    font-size: 50px;
+    margin: 50px;
+    color: #d8b786;
+    top: 70%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+.city_state {
+    font-size: 25px;
+    font-weight: bold;
+    color:#d8b786;
+    padding-right: 20px;
+    text-align: center;
+}
+.date{
+    height: auto;
+    color:#d8b786;
+    padding-right: 20px;
+    text-align: center;
+}
+.countdown{
+    text-align: center;
+    color: #d8b786;
+    padding-right: 20px;
+}
+
+.reservation{
+    text-align: center;
+    padding-right: 20px;
+}
+
+.rsvp_button{
+    font-family: didot, serif;
+    height: auto;
+    background-color: transparent;
+    border: 2px solid #d8b786;
+    color: #d8b786;
+    padding: 10px;
+    position: relative;
+    top: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    width: 90%;
+
+}
+.rsvp_button:hover{
+    background-color: #d8b786;
+    color: #5e704a;
+}
+.rsvp_back{
+    background-image: url(/images/olive_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 33.3%;
+    height: 100%;
+    float: right;
+}
+.rsvp_info{
+    margin: 50px;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 27%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: didot,serif;
+}
+
+.wrapper{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+    background-color: #d8b786;
+    position: relative;
+}
+
+h2{
+    margin: 10px;
+    font-size: 24px;
+}
+input{
+    font-family: didot,sarif;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: rgb(233, 233, 201);
+    border: 2px solid #7c8e76;
+
+}
+.submit{
+    width: 96%;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #7c8e76;
+    color: #7c8e76;
+}
+.submit:hover{
+    background-color: #7c8e76;
+    color: #d8b786;
+
+}
+.dialog{
+    background-color: transparent;
+    border: 0px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cancel_button{
+    font-family: didot,serif;
+    width: 25%;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #7c8e76;
+    color: #7c8e76;
+}
+.cancel_button:hover{
+    background-color: #7c8e76;
+    color: #d8b786;
+}
+
+
+
+
+
+
